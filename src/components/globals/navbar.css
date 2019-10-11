@@ -1,0 +1,17 @@
+.navbar {
+    background: var(--mainThird)
+}
+
+.navbar-expand-sm {
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.cart-icon {
+    cursor: pointer;
+    color: var(--mainDark);
+    font-size: 40px;
+}
