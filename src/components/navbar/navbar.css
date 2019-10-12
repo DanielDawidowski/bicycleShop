@@ -12,3 +12,7 @@
     color: var(--mainDark);
     font-size: 40px;
 }
+
+.cart-icon:hover {
+    color: var(--mainWhite)
+}
