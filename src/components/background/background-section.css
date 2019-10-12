@@ -1,0 +1,9 @@
+.default-background {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}

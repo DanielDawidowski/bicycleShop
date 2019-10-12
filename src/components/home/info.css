@@ -1,0 +1,13 @@
+.btn-page {
+    color: var(--mainWhite);
+    border-color: var(--mainWhite);
+    background: var(--mainDark);
+    box-shadow: 1px 2px var(--mainWhite);
+}
+
+.btn-page:hover {
+    color: var(--mainDark);
+    border-color: var(--mainDark);
+    background: var(--mainWhite);
+    box-shadow: 1px 1px var(--mainDark);
+}
