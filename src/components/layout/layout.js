@@ -22,9 +22,9 @@ const Layout = ({ children }) => {
   return (
     <>
     <Navbar/>
-      <header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
-        <Footer/>
+    <header siteTitle={data.site.siteMetadata.title} />
+    <main>{children}</main>
+    <Footer/>
     </>
   )
 }

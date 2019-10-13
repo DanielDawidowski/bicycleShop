@@ -1,10 +1,31 @@
 .default-background,
+.projects-background,
 .about-background {
     min-height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100vw;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.default-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-background {
+    display: grid;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.projects-background .title {
+    color: yellow;
 }

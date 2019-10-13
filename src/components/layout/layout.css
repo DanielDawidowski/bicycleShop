@@ -6,6 +6,11 @@
     --mainDark: #2C4547;
 }
 
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
 body {
     background: var(--mainSec);
     color: var(--mainDark);

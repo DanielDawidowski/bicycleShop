@@ -16,3 +16,11 @@
 .cart-icon:hover {
     color: var(--mainWhite)
 }
+
+.nav-link:hover {
+    color: var(--mainWhite)
+}
+
+.navbar-nav {
+    color: white;
+}

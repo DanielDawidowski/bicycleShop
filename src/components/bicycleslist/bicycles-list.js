@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Title from '../titles/title'
 import Img from 'gatsby-image'
 
-import './bicycleslist.css'
+import './bicycles-list.css'
 
 const getCategories = items => {
     let tempItems = items.map(items => {
@@ -69,24 +69,27 @@ export default class Bicyclelist extends Component {
                                 return(
                                     <div 
                                         key={node.id} 
-                                        className="col-11 col-md-8 m-3 d-flex mx-auto bicycle-item"
+                                        className="col-11 col-md-12 m-1 d-flex  bicycle-item"
                                     >
                                         <div>
-                                            <Img fixed={node.image.fixed} />
+                                            <Img 
+                                                fixed={node.image.fixed}
+                                                className='photo-item' 
+                                            />
                                             
                                         </div>
                                         {/* item text */}
                                         <div className="flex-grow-1 px-3">
                                         <div className="d-flex justify-content-between">
-                                            <h6 className="mb-0">
+                                            <h6 className="mb-0 title-item">
                                                 {node.title}
                                             </h6>
-                                            <h6 className="mb-0"> 
+                                            <h6 className="mb-0 price"> 
                                                 <big>$ {node.price}</big>  
                                             </h6>     
                                         </div>    
-                                            <p className="text-muted">
-                                                <small>{node.description.description}</small>
+                                            <p className="text-muted description-item">
+                                                {node.description.description}
                                             </p>
                                         </div>
                                     </div>

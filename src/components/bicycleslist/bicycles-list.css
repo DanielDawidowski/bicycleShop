@@ -1,0 +1,49 @@
+.menu {
+    background: var(--mainBlue);
+    padding: 0;
+}
+
+.bicycle-item {
+    background: var(--mainSec);
+    border-radius: 13px;
+    padding: 10px;
+    box-shadow: 1px 2px 3px var(--mainWhite);
+}
+
+.btn-page {
+    color: var(--mainWhite);
+    border-color: var(--mainWhite);
+    background: var(--mainDark);
+    box-shadow: 1px 2px var(--mainWhite);
+}
+
+.btn-page:hover {
+    color: var(--mainDark);
+    border-color: var(--mainDark);
+    background: var(--mainWhite);
+    box-shadow: 1px 1px var(--mainDark);
+}
+
+.photo-item {
+    border-radius: 13px;
+    box-shadow: 1px 2px 3px var(--mainDark);
+}
+
+.price {
+    background: var(--mainWhite);
+    padding: 0.4rem;
+    border-radius: 13px;
+    box-shadow: 1px 2px 3px var(--mainDark);
+}
+
+.title-item {
+    padding: 0.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 45vw;
+    border-bottom: 1px solid var(--mainDark);
+}
+
+.description-item {
+    padding: 0.4rem;
+}

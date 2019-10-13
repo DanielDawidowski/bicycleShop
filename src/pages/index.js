@@ -3,6 +3,8 @@ import BackgroundSection from '../components/background/background-section'
 import { graphql } from 'gatsby'
 import Layout from "../components/layout/layout"
 import Info from '../components/home/info'
+import Commercials from '../components/commercial/commercials'
+import Contact from '../components/contact/contact'
 
 
 import SEO from "../components/seo"
@@ -15,8 +17,10 @@ const IndexPage = ({data}) => (
       img={data.img.childImageSharp.fluid} 
       title='bicycles' 
       styleClass='default-background' 
-      />
-      <Info/>        
+    />
+    <Info />
+    <Commercials />
+    <Contact/>
   </Layout>
 )
 

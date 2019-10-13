@@ -2,7 +2,6 @@ import React from "react"
 import BackgroundSection from '../components/background/background-section'
 import { graphql } from 'gatsby'
 import Layout from "../components/layout/layout"
-import Info from '../components/home/info'
 
 
 import SEO from "../components/seo"
@@ -15,8 +14,7 @@ const AboutPage = ({data}) => (
             img={data.img.childImageSharp.fluid} 
             title='about us' 
             styleClass='about-background' 
-        />
-        <Info/>        
+        />       
     </Layout>
 )
 

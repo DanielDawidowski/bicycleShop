@@ -2,18 +2,17 @@ import React from "react"
 import BackgroundSection from '../components/background/background-section'
 import { graphql } from 'gatsby'
 import Layout from "../components/layout/layout"
-import Bicycleslist from '../components/bicycleslist/bicycleslist'
+import Bicycleslist from '../components/bicycleslist/bicycles-list'
 
 import SEO from "../components/seo"
 
 const BicyclesPage = ({data}) => (
     <Layout>
-        <SEO title="Home" />
-    
+        <SEO title="Home" />    
         <BackgroundSection 
             img={data.img.childImageSharp.fluid} 
             title='We Have Our Dream Bike' 
-            styleClass='about-background' 
+            styleClass='projects-background' 
         />
         <Bicycleslist items={data.menu}/>       
     </Layout>
