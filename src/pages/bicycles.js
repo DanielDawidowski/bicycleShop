@@ -20,7 +20,7 @@ const BicyclesPage = ({data}) => (
 
 export const query = graphql`
 {
-  img: file(relativePath: { eq: "sayan-nath-unsplash.jpg"} ) {
+  img: file(relativePath: { eq: "nicole-baster-unsplash.jpg"} ) {
     childImageSharp {
       fluid{
         ...GatsbyImageSharpFluid_tracedSVG

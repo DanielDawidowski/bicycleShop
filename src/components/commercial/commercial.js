@@ -13,11 +13,17 @@ export default function Commercial({commercial}) {
                     height:"350px" }}/>
                 <div className="card-body text-center">
                     <h6>{commercial.title}</h6>
-                    
-                       
                 </div>
                 <h6 className='card-footer mb-0'>{commercial.price} $</h6>
-                <button className='btn btn-page mt-1 text-capitalize'>
+                <button 
+                    className='btn btn-page mt-1 text-capitalize snipcart-add-item'
+                    data-item-id={commercial.id}
+                    data-item-name={commercial.title}
+                    data-item-price={commercial.price}
+                    data-item-image={commercial.image.fluid.src}
+                    data-item-url="http://https://bicycle-shop.netlify.com/"
+                    
+                >
                         Add to Cart
                 </button>     
             </div>
