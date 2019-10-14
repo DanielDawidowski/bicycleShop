@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Title from '../titles/title'
 import Img from 'gatsby-image'
 
+
 import './bicycles-list.css'
 
 const getCategories = items => {
@@ -80,17 +81,27 @@ export default class Bicyclelist extends Component {
                                         </div>
                                         {/* item text */}
                                         <div className="flex-grow-1 px-3">
-                                        <div className="d-flex justify-content-between">
-                                            <h6 className="mb-0 title-item">
-                                                {node.title}
-                                            </h6>
-                                            <h6 className="mb-0 price"> 
-                                                <big>$ {node.price}</big>  
-                                            </h6>     
-                                        </div>    
-                                            <p className="text-muted description-item">
-                                                {node.description.description}
-                                            </p>
+                                            <div className="d-flex justify-content-between">
+                                                <h6 className="mb-0 title-item">
+                                                    {node.title}
+                                                </h6>
+                                                <h6 className="mb-0 price"> 
+                                                    <big>$ {node.price}</big>  
+                                                </h6>     
+                                            </div>    
+                                                <p className="text-muted description-item">
+                                                    {node.description.description}
+                                                </p>
+                                                <button 
+                                                    className='btn btn-page mt-1 text-capitalize snipcart-add-item'
+                                                    data-item-id={node.id}
+                                                    data-item-name={node.title}
+                                                    data-item-price={node.price}
+                                                    data-item-image={node.image.fixed.src}
+                                                    data-item-url="http://bicycle-shop.netlify.com"  
+                                                >
+                                                    Add to Cart
+                                                </button>   
                                         </div>
                                     </div>
                                 )

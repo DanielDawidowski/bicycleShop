@@ -30,9 +30,6 @@ export default function Commercials() {
                 return (
                     <section 
                         className='py-5'
-                        style={{
-                            borderTop: "1px dotten var(--mainThird)"
-                        }}
                     >
                         <div className="container">
                             <Title title='30% OFF' />
