@@ -21,7 +21,7 @@ export default function Commercial({commercial}) {
                     data-item-name={commercial.title}
                     data-item-price={commercial.price}
                     data-item-image={commercial.image.fluid.src}
-                    data-item-url="https://bicycle-shop.netlify.com/#!/"                    
+                    data-item-url="https://bicycle-shop.netlify.com/"                    
                 >
                         Add to Cart
                 </button>     
