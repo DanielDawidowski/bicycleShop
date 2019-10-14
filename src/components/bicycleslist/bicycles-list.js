@@ -98,7 +98,7 @@ export default class Bicyclelist extends Component {
                                                     data-item-name={node.title}
                                                     data-item-price={node.price}
                                                     data-item-image={node.image.fixed.src}
-                                                    data-item-url="http://bicycle-shop.netlify.com"  
+                                                    data-item-url="https://bicycle-shop.netlify.com/bicycles" 
                                                 >
                                                     Add to Cart
                                                 </button>   
