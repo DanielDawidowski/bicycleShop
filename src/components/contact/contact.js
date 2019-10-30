@@ -17,18 +17,18 @@ export default function Contact() {
                             className="form-control" 
                             name="name" 
                             id="name" 
-                            placeholder='swen skurwensen' 
+                            placeholder='name' 
                         />
                     </div>
                     {/* email */}
                     <div className="form-group">
-                        <label htmlFor="email">email</label>
+                        <label htmlFor="email">Email</label>
                         <input 
                             type="text" 
                             className="form-control" 
                             name="email"
                             id="email" 
-                            placeholder='sw@n sk@rw@ns@n' 
+                            placeholder='email' 
                         />
                     </div>
                     {/* description */}

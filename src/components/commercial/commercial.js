@@ -6,11 +6,11 @@ export default function Commercial({commercial}) {
         <div className="col-10 col-sm-8 col-md-6 col-lg-4 mx-auto my-3">
             <div 
                 className="card"
-                style={{minHeight:'100%'}} 
+                style={{minHeight:'70%'}} 
             >
                 <Img fluid={commercial.image.fluid} className='card-img-top' style={{
-                    width:"350px",
-                    height:"350px" }}/>
+                    width:"250px",
+                    height:"250px" }}/>
                 <div className="card-body text-center">
                     <h6>{commercial.title}</h6>
                 </div>

@@ -86,7 +86,7 @@ export default class Bicyclelist extends Component {
                                                     {node.title}
                                                 </h6>
                                                 <h6 className="mb-0 price"> 
-                                                    <big>$ {node.price}</big>  
+                                                    <small><span>{node.price}$</span></small>  
                                                 </h6>     
                                             </div>    
                                                 <p className="text-muted description-item">

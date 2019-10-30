@@ -1,14 +1,17 @@
 .menu {
     background: var(--mainBlue);
-    padding: 0;
+    padding: 1rem;
 }
+
+
 
 .bicycle-item {
     background: var(--mainSec);
     border-radius: 13px;
     padding: 10px;
-    box-shadow: 1px 2px 3px var(--mainWhite);
+    box-shadow: 1px 2px 3px var(--mainWhite);   
 }
+
 
 .btn-page {
     color: var(--mainWhite);
@@ -36,12 +39,30 @@
     box-shadow: 1px 2px 3px var(--mainDark);
 }
 
+
+@media screen and (max-width: 480px) {
+    .price {
+        padding: 0.1rem;
+        font-size: 0.8rem;
+        margin-left: -40px;
+    }
+}
+
 .title-item {
     padding: 0.2rem;
     font-weight: 400;
     text-transform: uppercase;
     width: 45vw;
     border-bottom: 1px solid var(--mainDark);
+}
+
+@media screen and (max-width: 480px) {
+    .title-item,
+    .description-item,
+    .btn-page {
+        font-size: 10px;
+    }
+
 }
 
 .description-item {
